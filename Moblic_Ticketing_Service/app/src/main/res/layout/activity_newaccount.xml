@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <!-- 제목과 부제목 -->
+    <TextView
+        android:id="@+id/MainText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:gravity="center"
+        android:text="회원가입"
+        android:textColor="#40455e"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/subText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Moblie Ticketing Service" />
+
+    <!-- 이름 입력창 -->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subText"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="이름 : "
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/name_Edit"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginLeft="25dp"
+
+        android:layout_marginBottom="-10dp"
+        android:layout_toRightOf="@+id/name"
+        android:hint="이름을 입력하세요" />
+
+    <!-- 아이디 입력창 -->
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="아이디 : "
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/id_Edit"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="-64dp"
+        android:layout_toRightOf="@+id/name"
+        android:hint="아이디를 입력하세요" />
+
+    <!-- 비밀번호 입력창 -->
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="비밀번호 : "
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/pw_Edit"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="-119dp"
+        android:layout_toRightOf="@+id/name"
+        android:hint="비밀번호를 입력하세요"
+        android:inputType="textPassword" />
+
+    <!-- 비밀번호 확인 입력창 -->
+
+    <TextView
+        android:id="@+id/password2_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="비밀번호확인 : "
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/pw2_Edit"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginLeft="63dp"
+        android:layout_marginBottom="-174dp"
+        android:layout_toRightOf="@+id/name"
+        android:hint="다시한번 입력하세요"
+        android:inputType="textPassword" />
+
+    <!-- 휴대폰 번호 입력창 -->
+
+    <TextView
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="190dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="휴대폰번호 : "
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+
+    <EditText
+        android:id="@+id/phone_Edit_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginLeft="56dp"
+        android:layout_marginBottom="-223dp"
+        android:layout_toRightOf="@+id/name"
+        android:hint="010"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/phone_Edit_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginLeft="104dp"
+        android:layout_marginBottom="-222dp"
+        android:layout_toRightOf="@+id/name"
+        android:hint="XXXX"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/phone_Edit_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginLeft="166dp"
+        android:layout_marginBottom="-222dp"
+        android:layout_toRightOf="@+id/name"
+        android:hint="XXXX"
+        android:inputType="phone" />
+
+
+    <!-- 성별 입력창  문제 : RadioGroup 생성해야 함 -->
+
+    <TextView
+        android:id="@+id/Sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="성별 : "
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <RadioButton
+        android:id="@+id/Sex_Man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Sex"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="-7dp"
+        android:layout_toRightOf="@+id/Sex"
+        android:text="남자" />
+
+    <RadioButton
+        android:id="@+id/Sex_women"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Sex"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="-7dp"
+        android:layout_toRightOf="@+id/Sex"
+        android:text="여자" />
+
+    <!-- 주소 입력창 -->
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="293dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="주소 : "
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/address_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="-326dp"
+        android:layout_toRightOf="@+id/name"
+        android:hint="주소를 입력하세요" />
+
+
+    <!-- 데이터 전송 버튼 -->
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginBottom="23dp"
+        android:background="#b3dbe8"
+        android:clickable="true"
+        android:fontFamily="@font/seoulnamsanb"
+        android:onClick="bt_join"
+        android:text="회원가입" />
+
+</RelativeLayout>

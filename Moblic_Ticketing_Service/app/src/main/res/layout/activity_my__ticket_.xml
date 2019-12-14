@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <!-- 동적 사진 -->
+    <ImageView
+        android:id="@+id/IMG_Ticket"
+        android:layout_width="250dp"
+        android:layout_height="323dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="65dp"
+        android:gravity="center" />
+
+    <!-- 동적 Text -->
+    <TextView
+        android:id="@+id/Text_Ticket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IMG_Ticket"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+
+    <!-- 활성화 버튼 -->
+    <Button
+        android:id="@+id/Activation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text_Ticket"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:onClick="Activation"
+        android:visibility="invisible"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="활성화"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="#56c4ff"
+        />
+
+    <!-- 예매한 티켓이 없을때 출력되는 Text -->
+    <TextView
+        android:id="@+id/N_Reservation_text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:fontFamily="@font/seoulnamsanb"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="티켓이 예매되지 않았습니다"
+        />
+
+    <TextView
+        android:id="@+id/N_Reservation_text_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:fontFamily="@font/seoulnamsanb"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="지금 예매하시겠습니까?"
+        />
+
+    <Button
+        android:id="@+id/N_Reservation_Button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="150dp"
+        android:visibility="invisible"
+        android:fontFamily="@font/seoulnamsanb"
+        android:background="#b3dbe8"
+        android:text="예매하러 가기"
+        android:textSize="18dp"
+
+
+        />
+
+</RelativeLayout>

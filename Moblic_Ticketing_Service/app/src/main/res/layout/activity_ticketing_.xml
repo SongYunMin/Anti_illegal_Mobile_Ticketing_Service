@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- BTS 공연 -->
+    <ImageView
+        android:id="@+id/TicketIng_1"
+        android:layout_width="147dp"
+        android:layout_height="202dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:onClick="IMG_BTS"
+        android:src="@drawable/bts" />
+
+    <TextView
+        android:id="@+id/bts_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TicketIng_1"
+        android:layout_alignBottom="@id/bts_text"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="BTS World TOUR"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/bts_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bts_text"
+        android:layout_alignEnd="@+id/TicketIng_1"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        android:text="19.10.26 ~ 19.10.29" />
+
+
+    <!-- 김경호 공연 -->
+    <ImageView
+        android:id="@+id/TicketIng_2"
+        android:layout_width="147dp"
+        android:layout_height="202dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:onClick="IMG_KKH"
+        android:src="@drawable/kkh" />
+
+    <TextView
+        android:id="@+id/kkh_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TicketIng_1"
+        android:layout_alignBottom="@id/bts_text"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="2019 KimKyungHo"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/kkh_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bts_text"
+        android:layout_alignEnd="@+id/TicketIng_1"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="-168dp"
+        android:text="2019. 10. 26" />
+
+    <!-- 서강준 팬미팅 -->
+    <ImageView
+        android:id="@+id/TicketIng_3"
+        android:layout_width="147dp"
+        android:layout_height="202dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="261dp"
+        android:clickable="true"
+        android:onClick="IMG_SKJ"
+        android:src="@drawable/skj" />
+
+    <TextView
+        android:id="@+id/skj_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TicketIng_1"
+        android:layout_alignBottom="@id/bts_text"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="259dp"
+        android:layout_marginBottom="-255dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="SEO KANG JUN : Me Befo..."
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/skj_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bts_text"
+        android:layout_alignEnd="@+id/TicketIng_1"
+        android:layout_gravity="center"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="33dp"
+        android:text="2019. 10. 12" />
+
+    <!-- 뮤지컬 맘마미아 -->
+    <ImageView
+        android:id="@+id/TicketIng_4"
+        android:layout_width="147dp"
+        android:layout_height="202dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="258dp"
+        android:clickable="true"
+        android:onClick="IMG_Mamma_MIA"
+        android:src="@drawable/mmmia" />
+
+    <TextView
+        android:id="@+id/mmmia_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TicketIng_1"
+        android:layout_alignBottom="@id/bts_text"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="259dp"
+        android:layout_marginBottom="-255dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="Mamma Mia!"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/mmmia_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bts_text"
+        android:layout_alignEnd="@+id/TicketIng_1"
+        android:layout_gravity="center"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="-172dp"
+        android:text="2019. 9. 14" />
+
+</RelativeLayout>

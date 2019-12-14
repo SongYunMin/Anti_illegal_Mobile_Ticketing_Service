@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:gravity="center"
+        android:text="티켓예약"
+        android:textColor="#ffff98"
+        android:textSize="30dp" />
+
+    <!-- BTS 사진 -->
+    <ImageView
+        android:id="@+id/IMG_BTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="89dp"
+        android:visibility="gone"
+        android:src="@drawable/bts" />
+
+    <!-- 그 외 공연 정보 -->
+
+    <TextView
+        android:id="@+id/BTS_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IMG_BTS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="BTS WORLD TOUR"
+        android:visibility="gone"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/BTS_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IMG_BTS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:visibility="gone"
+        android:hint="19.10.26 ~ 19.10.29" />
+
+    <!-- 김경호 공연 정보 -->
+    <ImageView
+        android:id="@+id/IMG_kkh"
+        android:layout_width="224dp"
+        android:layout_height="323dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="89dp"
+        android:visibility="gone"
+        android:src="@drawable/kkh" />
+
+    <!-- 그 외 공연 정보 -->
+
+    <TextView
+        android:id="@+id/kkh_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IMG_kkh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="2019 KimKyungHo"
+        android:visibility="gone"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/kkh_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IMG_kkh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:visibility="gone"
+        android:hint="2019. 10. 26" />
+
+
+    <!-- 서강준 팬미팅 정보 -->
+    <ImageView
+        android:id="@+id/IMG_skj"
+        android:layout_width="213dp"
+        android:layout_height="290dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="79dp"
+        android:visibility="gone"
+        android:src="@drawable/skj" />
+
+    <!-- 그 외 공연 정보 -->
+    <TextView
+        android:id="@+id/skj_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IMG_skj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="SEO KANG JUN : Me Befo..."
+        android:visibility="gone"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/skj_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IMG_skj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:visibility="gone"
+        android:hint="2019. 10. 12" />
+
+
+
+    <!-- Mamma mia 정보 -->
+    <ImageView
+        android:id="@+id/IMG_Mammamia"
+        android:layout_width="219dp"
+        android:layout_height="303dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="77dp"
+        android:visibility="gone"
+        android:src="@drawable/mmmia" />
+
+    <!-- 그 외 공연 정보 -->
+
+    <TextView
+        android:id="@+id/Mammamia_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IMG_Mammamia"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:visibility="gone"
+        android:text="Mamma Mia!"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/Mammamia_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IMG_Mammamia"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:visibility="gone"
+        android:hint="2019. 9. 14" />
+
+    <!-- 예약 버튼 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="41dp">
+
+        <Button
+            android:id="@+id/Reservation"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_gravity="bottom"
+            android:background="#56c4ff"
+            android:fontFamily="@font/seoulnamsanb"
+            android:text="예약" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

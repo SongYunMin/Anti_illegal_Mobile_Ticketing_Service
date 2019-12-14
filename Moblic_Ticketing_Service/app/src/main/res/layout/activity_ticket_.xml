@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ticket_Activity_ID"
+    >
+    <!-- 티켓 이미지 -->
+    <ImageView
+        android:id="@+id/ticketing_img_1"
+        android:layout_width="110dp"
+        android:layout_height="169dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/bts" />
+
+    <!-- Ticket TEXT 부분 -->
+
+    <TextView
+        android:id="@+id/BTS_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="93dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="BTS WORLD TOUR"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/BTS_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BTS_text"
+        android:layout_alignStart="@+id/BTS_text"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:hint="19.10.26 ~ 19.10.29" />
+
+    <TextView
+        android:id="@+id/BTS_Area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/BTS_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="잠실종합운동장 주경기장"
+        android:textColor="#40455e" />
+
+    <TextView
+        android:id="@+id/BTS_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BTS_Area"
+        android:layout_alignEnd="@+id/BTS_hint"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="만 9세이상 입장가능"
+        android:textColor="#0c1f23" />
+
+    <!-- 예약 버튼 -->
+    <Button
+        android:id="@+id/BIS_Button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BTS_age"
+        android:layout_alignEnd="@+id/BTS_text"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="8dp"
+        android:background="#f6935c"
+        android:fontFamily="@font/seoulnamsanb"
+        android:text="예약"
+        android:textColor="#202020" />
+
+
+</RelativeLayout>
